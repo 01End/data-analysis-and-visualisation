@@ -1,0 +1,24 @@
+import numpy as np
+
+#np.ones  #np.zeros  #np.empty
+
+
+#np.empty((rows,cols),dtype)
+print(np.empty((2,2),dtype = int)) 
+
+
+#np.ones((rows,cols),dtype)
+print(np.ones((3,5),dtype=int)) 
+
+
+#np.zeros((rows,cols),dtype)
+print(np.zeros((3,5),dtype=int)) 
+
+
+
+print(np.ones((3,5),dtype=str)) 
+print(np.zeros((3,5),dtype=str)) 
+
+
+print(np.ones((3,5),dtype=bool)) 
+print(np.zeros((3,5),dtype=bool)) 
